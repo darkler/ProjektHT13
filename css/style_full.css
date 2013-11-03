@@ -19,10 +19,40 @@
     width: 200px;
     padding: 10px;
     /*LÄGG TILL SNYGG RAM*/
+        -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);       /* to get a shadow effect of the pictures */
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
-.picMediumFloatRight    {
+.picMediumFloatRight{
     float:right;
     width: 200px;
     padding: 10px;
     /*LÄGG TILL SNYGG RAM*/
+        -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);       /* to get a shadow effect of the pictures */
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.picSmallPopUp{
+    position:block;
+    width:100px;
+    padding: 5px;
+    background: #fff; 
+    -webkit-transition: 0.2s ease-in;
+    -moz-transition: 0.2s ease-in;
+    transition: 0.2s ease-in;
+    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);       /* to get a shadow effect of the pictures */
+    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.picSmallPopUp:hover, .picSmallPopUp:focus{
+    -webkit-transform: scale(2);
+    -moz-transform: scale(2);
+    transform: scale(2);
+    position: relative;
+    z-index: 2;
+    padding: 5px 5px 10px 5px;
+    -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);       /* to get a shadow effect of the pictures */
+    -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    content: attr(title);
 }
